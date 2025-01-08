@@ -10,7 +10,7 @@
 
 - Create a 3-node Kubernetes cluster using Kind:
   ```bash
-  kind create cluster --config=config.yml
+  kind create cluster --config=config.yml --name=my-cluster
   ```
 
 - Check cluster information:
