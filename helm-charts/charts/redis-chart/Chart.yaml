@@ -1,0 +1,4 @@
+apiVersion: v2
+name: redis-chart
+description: A Helm chart for Redis Deployment
+version: 1.0.0

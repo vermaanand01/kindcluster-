@@ -1,0 +1,8 @@
+result:
+  name: result
+  replicas: 2
+  image: dockersamples/examplevotingapp_result
+  containerName: result
+  containerPort: 80
+  servicePort: 5001
+  nodePort: 31001
