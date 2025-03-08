@@ -1,0 +1,4 @@
+apiVersion: v2
+name: worker-chart
+description: A Helm chart for Worker Deployment
+version: 1.0.0

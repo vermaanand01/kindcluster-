@@ -1,0 +1,23 @@
+apiVersion: v2
+name: parent-chart # 👈 यह नाम होना जरूरी है!
+description: A Helm chart for managing application
+type: application
+version: 1.0.0
+appVersion: "1.0"
+
+dependencies:
+  - name: db-chart
+    version: "1.0.0"
+    repository: "file://../charts/db-chart"
+  - name: redis-chart
+    version: "1.0.0"
+    repository: "file://../charts/redis-chart"
+  - name: vote-chart
+    version: "1.0.0"
+    repository: "file://../charts/vote-chart"
+  - name: result-chart
+    version: "1.0.0"
+    repository: "file://../charts/result-chart"
+  - name: worker-chart
+    version: "1.0.0"
+    repository: "file://../charts/worker-chart"

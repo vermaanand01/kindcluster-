@@ -1,0 +1,4 @@
+apiVersion: v2
+name: result-chart
+description: A Helm chart for Result Deployment
+version: 1.0.0
