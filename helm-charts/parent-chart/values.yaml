@@ -27,7 +27,7 @@ result:
 
 vote:
   name: vote
-  replicas: 6
+  replicas: 4
   image: dockersamples/examplevotingapp_vote
   containerName: vote
   containerPort: 80
