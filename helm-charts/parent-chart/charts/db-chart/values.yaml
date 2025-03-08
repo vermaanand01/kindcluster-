@@ -1,9 +1,0 @@
-db:
-  name: db
-  replicas: 1
-  image: postgres:15-alpine
-  containerName: postgres
-  user: postgres
-  password: postgres
-  port: 5432
-  mountPath: /var/lib/postgresql/data

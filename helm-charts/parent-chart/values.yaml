@@ -25,9 +25,9 @@ result:
   servicePort: 5001
   nodePort: 31001
 
-vote:
+vote-chart:
   name: vote
-  replicas: 4
+  replicas:
   image: dockersamples/examplevotingapp_vote
   containerName: vote
   containerPort: 80

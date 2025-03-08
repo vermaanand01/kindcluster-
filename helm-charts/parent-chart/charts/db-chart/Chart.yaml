@@ -1,4 +1,0 @@
-apiVersion: v2
-name: db-chart
-description: A Helm chart for Database Deployment
-version: 1.0.0

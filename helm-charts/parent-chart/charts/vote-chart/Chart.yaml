@@ -1,4 +1,0 @@
-apiVersion: v2
-name: vote-chart
-description: A Helm chart for Vote-Screen Deployment
-version: 1.0.0

@@ -1,5 +1,0 @@
-worker:
-  name: worker
-  replicas: 1
-  image: dockersamples/examplevotingapp_worker
-  containerName: worker
