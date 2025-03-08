@@ -18,7 +18,7 @@ redis:
 
 result:
   name: result
-  replicas: 2
+  replicas: 4
   image: dockersamples/examplevotingapp_result
   containerName: result
   containerPort: 80
