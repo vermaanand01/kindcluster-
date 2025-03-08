@@ -27,7 +27,7 @@ result:
 
 vote-chart:
   name: vote
-  replicas:
+  replicas: 2
   image: dockersamples/examplevotingapp_vote
   containerName: vote
   containerPort: 80
